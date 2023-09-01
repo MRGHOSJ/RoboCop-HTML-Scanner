@@ -30,22 +30,7 @@ Navigate to the repository folder:
    cd RoboCop-HTML-Scanner
 ```
 
-Run the robocop_scan.py script to scan .robot files in the current directory and its subdirectories. The scan results will be saved in robocop_output.txt.
-
-   ```shell
-python robocop_scan.py
-```
-
-3. **Convert Results to HTML**
-
-After the scan is complete, run the convert_txt_html.py script to convert the scan results from robocop_output.txt to an HTML report. The HTML report will be saved as robocop_output.html.
-
-   ```shell
-   python convert_txt_html.py
-
-```
-
-Run the robocop_scan.py script to scan .robot files in the current directory and its subdirectories. The scan results will be saved in robocop_output.txt.
+Run the robocop_scan.py script to scan .robot files in the current directory and its subdirectories. The scan results will be saved in robocop_output.txt and in robocop_output.html format.
 
    ```shell
 python robocop_scan.py
